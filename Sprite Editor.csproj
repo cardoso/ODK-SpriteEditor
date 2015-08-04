@@ -42,7 +42,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\..\..\NewSPKEditor\</OutputPath>
+    <OutputPath>..\..\..\..\..\bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -177,7 +177,7 @@
     <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpriteLib\SpriteLib.csproj">
+    <ProjectReference Include="..\ODK-SpriteLib\SpriteLib.csproj">
       <Project>{8867239b-606f-4e20-986e-2040918ec5d8}</Project>
       <Name>SpriteLib</Name>
     </ProjectReference>
