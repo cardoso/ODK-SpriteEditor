@@ -63,22 +63,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAbout.cs">
+    <Compile Include="Dialogs\frmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAbout.Designer.cs">
+    <Compile Include="Dialogs\frmAbout.Designer.cs">
       <DependentUpon>frmAbout.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAlphaSpritePackBrowser.cs">
+    <Compile Include="Browsers\frmAlphaSpritePackBrowser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAlphaSpritePackBrowser.Designer.cs">
+    <Compile Include="Browsers\frmAlphaSpritePackBrowser.Designer.cs">
       <DependentUpon>frmAlphaSpritePackBrowser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmIndexSpritePackBrowser.cs">
+    <Compile Include="Browsers\frmIndexSpritePackBrowser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmIndexSpritePackBrowser.Designer.cs">
+    <Compile Include="Browsers\frmIndexSpritePackBrowser.Designer.cs">
       <DependentUpon>frmIndexSpritePackBrowser.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
@@ -87,22 +87,22 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmShadowSpritePackBrowser.cs">
+    <Compile Include="Browsers\frmShadowSpritePackBrowser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmShadowSpritePackBrowser.Designer.cs">
+    <Compile Include="Browsers\frmShadowSpritePackBrowser.Designer.cs">
       <DependentUpon>frmShadowSpritePackBrowser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSpritePackBrowser.cs">
+    <Compile Include="Browsers\frmSpritePackBrowser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSpritePackBrowser.Designer.cs">
+    <Compile Include="Browsers\frmSpritePackBrowser.Designer.cs">
       <DependentUpon>frmSpritePackBrowser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSpriteSendTo.cs">
+    <Compile Include="Dialogs\frmSpriteSendTo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSpriteSendTo.Designer.cs">
+    <Compile Include="Dialogs\frmSpriteSendTo.Designer.cs">
       <DependentUpon>frmSpriteSendTo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -111,19 +111,19 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="WindowManager.cs" />
-    <EmbeddedResource Include="frmAbout.resx">
+    <EmbeddedResource Include="Dialogs\frmAbout.resx">
       <DependentUpon>frmAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmIndexSpritePackBrowser.resx">
+    <EmbeddedResource Include="Browsers\frmIndexSpritePackBrowser.resx">
       <DependentUpon>frmIndexSpritePackBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSpritePackBrowser.resx">
+    <EmbeddedResource Include="Browsers\frmSpritePackBrowser.resx">
       <DependentUpon>frmSpritePackBrowser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSpriteSendTo.resx">
+    <EmbeddedResource Include="Dialogs\frmSpriteSendTo.resx">
       <DependentUpon>frmSpriteSendTo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
